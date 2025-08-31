@@ -22,15 +22,15 @@ function App() {
   };
 
   return (
-    <div className="cla w-[25%] rounded-[0.5rem] h-auto border-2 p-2 flex flex-col bg-[#2B2C36] gap-3">
+    <div className="cla ">
       <input
         type="text"
         value={input}
         placeholder="0"
         disabled
-        className="text-white border-b-1  w-full p-3 text-[1.5rem]"
+        className="text-white border-b-1  w-full sm:p-3 p-4 text-[2rem] sm:text-[1.5rem]"
       />
-      <p className="text-right text-white text-lg font-semibold">  {result}</p>
+      <p className="text-right text-white sm:text-lg text-[2rem] font-semibold">  {result}</p>
 
       <div className="calcul flex justify-evenly w-[100%]">
         <button className="bg-[#F4A021]" onClick={() => handleClick("AC")}>AC</button>

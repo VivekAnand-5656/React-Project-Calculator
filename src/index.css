@@ -2,12 +2,11 @@
 body{
     @apply bg-[#2B2C36];
 }
-.cla{
-    box-shadow: 2px 2px 10px #fff;
-    border: none;
+.cla{  
+    @apply border-2 border-solid border-[#fff] sm:shadow-[2px_2px_10px_#fff] sm:border-none w-[100%] sm:w-[25%] rounded-[0.5rem] sm:h-auto p-2 flex flex-col bg-[#2B2C36] gap-3 ;
 }
 
 .calcul button{
      box-shadow: 2px 2px 3px inset #000 ;
-    @apply text-white w-[50px] hover:bg-[#fff] hover:text-black transition-all ease-in-out duration-500 h-[50px] cursor-pointer rounded-[50%] flex justify-center items-center font-semibold;
+    @apply text-white text-[2rem] sm:text-[1.5rem] sm:w-[50px] w-[25%]  sm:h-[50px] h-[100px] hover:bg-[#fff] hover:text-black transition-all ease-in-out duration-500 cursor-pointer rounded-[50%] flex justify-center items-center font-semibold;
 }
